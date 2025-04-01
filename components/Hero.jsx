@@ -51,8 +51,8 @@ const HeroSection = () => {
           <div ref={imageRef} className="hero-image">
             <Image
               src="/banner.jpeg"
-              width={1200}
-              height={720}
+              width={1100}
+              height={400}
               alt="Dashboard Preview"
               className="rounded-lg shadow-2xl border mx-auto"
               priority
@@ -61,6 +61,7 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
