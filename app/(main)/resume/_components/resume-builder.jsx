@@ -127,7 +127,7 @@ export default function ResumeBuilder({ initialContent }) {
 				jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
 			};
 
-			await html2pdf().set(opt).from(element).save();
+			// await html2pdf().set(opt).from(element).save();
 		} catch (error) {
 			console.error("PDF generation error:", error);
 		} finally {
@@ -181,8 +181,8 @@ export default function ResumeBuilder({ initialContent }) {
 							</>
 						) : (
 							<>
-								<Download className="h-4 w-4" />
-								Download PDF
+								<Download className="h-4 w-4" disabled />
+								Download PDF(still need modifications)
 							</>
 						)}
 					</Button>
