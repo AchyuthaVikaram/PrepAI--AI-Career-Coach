@@ -1,5 +1,5 @@
 {
-  "name": "senseai",
+  "name": "prepai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,7 +29,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
-    "html2pdf.js": "^0.9.3",
+    "html2pdf.js": "^0.10.2",
     "inngest": "^3.34.1",
     "lucide-react": "^0.483.0",
     "next": "15.2.3",
