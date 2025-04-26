@@ -32,7 +32,7 @@ export default  async function Header() {
 			<nav className="container mx-auto px-4 h-16 flex items-center justify-between">
 				<Link href="/">
 					<Image
-						src="/logo2.png"
+						src="/logo.png"
 						alt="SenseAI Logo"
 						width={400}
 						height={120}
