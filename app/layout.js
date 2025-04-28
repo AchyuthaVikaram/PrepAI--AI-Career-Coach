@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 			}}
 		>
 			<html lang="en" suppressHydrationWarning>
-				<body className={`${inter.className}`}>
+				<body className={`${inter.className} min-h-screen overflow-y-auto`}>
 					<ThemeProvider
 						attribute="class"
 						defaultTheme="dark"
